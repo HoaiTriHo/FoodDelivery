@@ -1,0 +1,1 @@
+export const ADD_RIDER = 'add a new rider';

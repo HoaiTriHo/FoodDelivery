@@ -1,0 +1,109 @@
+import {StyleSheet, Dimensions, Platform} from 'react-native';
+
+const {width,height} = Dimensions.get('window');
+
+const Styles = StyleSheet.create({
+    /** Start Home component */
+    location:{
+        backgroundColor:'#57CFD1',
+        alignItems:'center'
+    },
+    iconLocation:{
+        width:width*0.04,
+        height:height*0.04
+    },
+    safeAreaView:{
+        backgroundColor:'#57CFD1'
+    },
+    address:{
+        flexDirection:'row',
+        width:width*0.9
+    },
+    btnGetLocation:{
+        justifyContent:'center',
+        marginLeft:10
+    },
+    textAddress:{
+        fontWeight:'600',
+        fontSize:16,
+        opacity:0.7
+    },
+    searchLocationWrap:{
+        height:'100%',
+        backgroundColor:'white'
+    },
+    btnBack:{
+        width:width*0.05,
+        fontSize:25
+    },
+    searchLocation:{
+        backgroundColor:'white',
+        width:width*0.9,
+        alignSelf:'center',
+        flexDirection:'row',
+        paddingBottom:10
+    },
+    contentLocation:{
+        height:'90%',
+        backgroundColor:'#F2EEEE'
+    },
+    text_location:{
+        alignSelf:'center',
+        width:width*0.85,
+        textAlign:'center',
+        fontSize:16
+    },
+    searchForm:{
+        paddingBottom:10
+    },
+    search:{
+        height:40,
+        fontSize:20
+    },
+    map:{
+        height: '90%',
+        justifyContent:'center'
+    },
+    /** End Home component */
+    bar:{
+        height:'10%',
+    },
+    marker:{
+        width:50,
+        height:50,
+        alignSelf:'center',
+        marginBottom:40
+    },
+    hidden:{
+        display:'none'
+    },
+    itemLocation:{
+        width:'95%',
+        marginTop:20,
+        alignSelf:'center',
+        borderBottomColor:'gray',
+        borderBottomWidth:StyleSheet.hairlineWidth,
+        paddingBottom:20
+    },
+    showLocation:{
+        height:height
+    },
+    nameLocation:{
+        fontWeight:'bold',
+        fontSize: 16
+    },
+    textLocation:{
+        opacity:0.7
+    },
+    btnConfirm:{
+        backgroundColor:'#57CFD1',
+        alignItems:'center',
+        justifyContent:'center',
+        height:'10%'
+    },
+    text:{
+        fontSize:20,
+        fontWeight:'bold'
+    }
+});
+export default Styles;
